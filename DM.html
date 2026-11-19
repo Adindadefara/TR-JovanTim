@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pesan / Kicau</title>
+<link rel="stylesheet" href="dm.css">
+</head>
+<body>
+<div class="app dm">
+<aside class="sidebar">
+  <a class="logo" href="home.html">Kicau</a>
+  <nav>
+    <a href="home.html"><i>🏠</i><span>Beranda</span></a>
+    <a href="explore.html"><i>🔍</i><span>Jelajahi</span></a>
+    <a href="inbox.html"><i>🔔</i><span>Kotak masuk</span></a>
+    <a href="dm.html" class="active" aria-current="page"><i>✉️</i><span>Pesan</span></a>
+    <a href="profile.html"><i>👤</i><span>Profil</span></a>
+  </nav>
+  <a class="btn" href="home.html">Kirim kicauan</a>
+  <a class="me" href="profile.html"><div class="avatar" style="--h:210">R</div><span class="who"><b>Raka Pratama</b><br><span class="muted">@rakapratama</span></span></a>
+</aside>
+  <main class="main dm-layout">
+    <section class="convs" aria-label="Daftar percakapan">
+      <header class="topbar">Pesan</header>
+      <div style="padding-top:12px"><input class="search" type="search" placeholder="Cari pesan" aria-label="Cari pesan"></div>
+      <a class="conv on" href="#"><div class="avatar" style="--h:150">D</div><span><b>Dewi Lestari</b> <span class="muted">@dewilestari</span><small>Oke, nanti kita ketemu jam 4 ya!</small></span></a>
+      <a class="conv" href="#"><div class="avatar" style="--h:20">B</div><span><b>Budi Santoso</b> <span class="muted">@budisantoso</span><small>Kodenya sudah aku kirim lewat email</small></span></a>
+      <a class="conv" href="#"><div class="avatar" style="--h:280">S</div><span><b>Sari Wulandari</b> <span class="muted">@sariw</span><small>Terima kasih banyak atas bantuannya 🙏</small></span></a>
+      <a class="conv" href="#"><div class="avatar" style="--h:190">A</div><span><b>Agus Prakoso</b> <span class="muted">@agusp</span><small>Besok jadi ngopi di Salatiga?</small></span></a>
+    </section>
+    <section class="chat" aria-label="Percakapan dengan Dewi Lestari">
+      <header class="chat-head"><div class="avatar" style="--h:150">D</div><span><b>Dewi Lestari</b><br><span class="muted">@dewilestari</span></span></header>
+      <div class="msgs">
+        <div class="bubble in">Halo Raka! Jadi ketemu hari ini?<time>14.02</time></div>
+        <div class="bubble out">Jadi dong. Tempat biasa, ya?<time>14.05</time></div>
+        <div class="bubble in">Boleh. Aku bawa draf tulisannya biar bisa kita baca bareng.<time>14.06</time></div>
+        <div class="bubble out">Siap, aku bawa laptop juga.<time>14.08</time></div>
+        <div class="bubble in">Oke, nanti kita ketemu jam 4 ya!<time>14.10</time></div>
+      </div>
+      <form class="msg-form"><input type="text" placeholder="Tulis pesan" aria-label="Tulis pesan"><button type="button" class="btn">Kirim</button></form>
+    </section>
+  </main>
+</div>
+</body>
+</html>
